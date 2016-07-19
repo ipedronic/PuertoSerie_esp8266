@@ -6,8 +6,8 @@ char dato_puerto;
 SoftwareSerial ESP(3, 2); // RX | TX
 
 void setup()
-  {  Serial.begin(9600);
-     ESP.begin(9600);
+  {  Serial.begin(115200);
+     ESP.begin(115200);
     Serial.println("Resetear el ESP8266,un pulso patilla reset a negativo");
     Serial.println("Programar cuando aparece la palabra: ready"); 
   }
